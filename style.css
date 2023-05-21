@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+ 
+  header img {
+    height: 50px;
+  }
+  
+  
+  header nav {
+    display: flex;
+  }
+  
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: rgb(65, 63, 63);
+    text-decoration: none;
+  }
+  
+  #hero-image {
+    display: flex;
+    /*flex-wrap: wrap;
+    */
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e6;
+    padding: 50px;
+  }
+  #menu{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f7ebd9;
+        padding: 50px;
+      
+  }
+  
+  /*#hero-image img {
+    width: 100%;
+  }
+  */
+  #blue{
+    /*background-image:url("https://blog.prepscholar.com/hs-fs/hubfs/body-mist-green.jpg?width=300&name=body-mist-green.jpg");
+    */
+    
+    
+    
+    align-items: center;
+    display: flex;
+    
+    
+}
+  #green{
+    /*background-image: url("https://qph.cf2.quoracdn.net/main-qimg-d5f884209360754ce14c10ea9eed8fb5-lq");
+*/
+background-color: rgb(2, 46, 16);  
+color: #e7e7e6;
+}
+  #green1{
+    /*background-image: url("https://qph.cf2.quoracdn.net/main-qimg-d5f884209360754ce14c10ea9eed8fb5-lq");
+*/
+background-color: rgb(3, 47, 32); 
+color: rgb(199, 238, 215); 
+}
+  /*.img1{
+    object-fit: cover;
+  }
+
+  */
+.foot{
+    background-color: rgb(160, 165, 165);
+} 
+  
